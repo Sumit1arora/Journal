@@ -36,19 +36,19 @@ Make sure you have the following installed:
 ### Steps
 1.  **Clone the repository**
     ```bash
-git clone https://github.com/Sumit1arora/Journal
-cd Journal
+    git clone https://github.com/Sumit1arora/Journal
+    cd Journal
     ```
 2.  **Configure MongoDB**
-    Ensure your MongoDB instance is running and configured correctly. By default, Spring Boot connects to `mongodb://localhost:27017/test`. You might need to update `application.properties` or `application.yml` for custom configurations (e.g., database name, credentials).
+    Ensure your MongoDB instance is running and configured correctly. By default, Spring Boot connects to `mongodb://localhost:27017/test`. You might need to update `application.properties` or `application.yml`     for custom configurations (e.g., database name, credentials).
 
 3.  **Build the project**
     ```bash
-mvn clean install
+    mvn clean install
     ```
 4.  **Run the application**
     ```bash
-mvn spring-boot:run
+    mvn spring-boot:run
     ```
     The application will start on `http://localhost:8080` by default.
 
